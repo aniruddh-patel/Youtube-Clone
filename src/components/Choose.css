@@ -1,0 +1,15 @@
+.box{
+    height: auto;
+    width: auto;
+    /* border: .5px solid rgb(255, 255, 255); */
+    background-color: rgb(39, 39, 39);
+    border-radius: 8px;
+    color: white;
+    display: inline-block;
+    padding: 5px 5px;
+    margin: 0px 8px;
+    overflow-y: hidden;
+}
+.box:hover{
+    cursor: pointer;
+}

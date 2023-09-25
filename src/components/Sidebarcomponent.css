@@ -1,0 +1,43 @@
+.sidebar-component-block{
+    height: 40px;
+    width: 90%;
+    /* border: .5px solid rgb(255, 255, 255); */
+    border-radius: 12px;
+    padding: 5px 5px;
+    display: flex;
+    align-items: center;
+    overflow: hidden;
+    
+    /* margin: 5px 8px; */
+}
+
+.sidebar-component-block:hover{
+    background-color: rgb(39, 39, 39);
+    cursor: pointer;
+}
+
+.sidebar-component-heading{
+    height: auto;
+    width: auto;
+    color: white;
+    background-color: rgba(39, 39, 39, 0);
+    padding-left: 12%;
+    font-weight:500;
+}
+
+.sidebar-component-logo{
+    height: 25px;
+    width: 25px;
+    margin-left: 5%;
+    background-color:transparent;
+    overflow: hidden;
+    background-size: cover;
+}
+.icon{
+    height: 23px;
+    width: 23px;
+    background-color:transparent;
+    filter: invert(100%);
+    
+    
+}
